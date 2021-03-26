@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins';
+    list-style: none;
+    outline: none;
+}
+
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+body {
+    min-height: 96vh;
+    overflow: scroll;
+    background: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #1e11d8;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+#todoInput {
+    position: fixed;
+    left: 33%;
+    top: 17.5%;
+    width: 30%;
+    height: 6.2%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3b24be;
+    overflow-x: scroll;
+}
+
+fieldset {
+    position: relative;
+    bottom: 4em;
+    height: 5em;
+}
+
+legend {
+    font-size: 25px;
+    color: #3f28c2;
+}
+
+#todoAddButton {
+    position: relative;
+    left: 64.2%;
+    bottom: 1.3rem;
+    font-size: 30px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    color: #3e0fad;
+    background-color: #7fff00;
+    transition: .4s;
+}
+
+#todoAddButton:hover {
+    background-color: #3e0fad;
+    color: #7fff00;
+}
+
+.todoDivBox ul {
+    position: relative;
+    width: fit-content;
+    top: -51px;
+    left: 17%;
+}
+
+.div {
+    display: flex;
+    background-color: #062af7;
+    width: fit-content;
+    border-bottom: 2px solid #222;
+    padding: 17px;
+    text-align: center;
+}
+
+.liB {
+    color: #eadedb;
+    font-size: 30px;
+    margin-right: 1.5rem;
+}
+
+.completeB {
+    font-size: 30px;
+    color: #008100;
+    background-color: lightskyblue;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.completeB:hover {
+    color: lightskyblue;
+    background: #008100;
+}
+
+.trashB {
+    font-size: 30px;
+    color: #ff0000;
+    background-color: #dfd117;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.trashB:hover {
+    background-color: #ff0000;
+    color: #dfd117;
+}
+
+i {
+    padding: 5px;
+}
